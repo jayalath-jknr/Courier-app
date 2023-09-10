@@ -21,28 +21,35 @@ Clone the project repository to your local machine:
 Create the .env and set the following variables:
 
 
-NODE_ENV=development
+```NODE_ENV=development
 PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=abc123
+```
 
 Replace your_mongodb_uri and your_paypal_client_id with your actual MongoDB URI and PayPal Client ID. You can also change the JWT_SECRET as desired.
 
 3. Install Dependencies
 Install both backend and frontend dependencies:
 
+```
 npm install
 cd frontend
 npm install
+```
+
 
 # Running the Application
 4. Start the Development Server
 To run both the frontend and backend concurrently, use:
 
-npm run dev
+```npm run dev```
+
 The frontend will be available at http://localhost:3000, and the backend at http://localhost:5000.
 
 To run only the backend server:
-
+```
 npm run server
+```
+
 
